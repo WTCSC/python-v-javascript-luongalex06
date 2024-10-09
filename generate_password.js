@@ -1,6 +1,6 @@
 function generatePassword(length = 12) {
 // Typed out all of the characters needed to make the password
-    const characters = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM,./<>?;':\"[]\\{}|`1234567890-=~!@#$%^&*()_+"
+    const characters = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890_"
 
     // Made a new empty string
 let password = '';
